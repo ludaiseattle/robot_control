@@ -1,0 +1,9 @@
+gezable:
+roslaunch minitask5 turtlebot3_training.launch
+
+rviz:
+excute it under minitask5 folder:
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`pwd`/maps/train_env.yaml
+
+keyboard:
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
